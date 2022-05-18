@@ -1,0 +1,11 @@
+body {
+  background: linear-gradient(90deg, #c1dfc4 0%, #deecdd 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: calc(100vw - 40px);
+  max-width: 1350px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}

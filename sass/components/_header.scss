@@ -1,0 +1,25 @@
+.decor-strip {
+  display: flex;
+  align-items: center;
+  padding: 0 26px;
+  background-color: #c4c4c4;
+  height: 83px;
+}
+
+.decor-strip__box {
+  width: 28px;
+  height: 28px;
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+.decor-strip__box:nth-child(3) {
+  margin: 0 31px;
+  flex-grow: 1;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.decor-strip__box:nth-child(3n + 1) {
+  margin-right: 21px;
+}
