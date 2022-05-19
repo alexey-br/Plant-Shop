@@ -9,3 +9,16 @@ body {
   margin: 0 auto;
   background-color: #ffffff;
 }
+
+.icon {
+  fill: currentColor;
+}
+
+.link {
+  transition: color var(--trans-dur) var(--trans-timing);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-accent);
+}
