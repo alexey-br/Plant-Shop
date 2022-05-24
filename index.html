@@ -8,196 +8,237 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header-container container">
-      <div class="decor-strip">
-        <div class="decor-strip__box"></div>
-        <div class="decor-strip__box"></div>
-        <div class="decor-strip__box"></div>
-        <div class="decor-strip__box"></div>
-        <div class="decor-strip__box"></div>
-      </div>
-    </header>
-    <div class="hero-section container">
-      <p class="discounts">Free home deliveries</p>
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a class="main-nav__link link" href="">Plants and Seeds</a></li>
-          <li class="main-nav__item"><a class="main-nav__link link" href="">Pots</a></li>
-          <li class="main-nav__item"><a class="main-nav__link link" href="">Accessories</a></li>
-          <li class="main-nav__item"><a class="main-nav__link link" href="">Blog</a></li>
-          <li class="main-nav__item"><a class="main-nav__link link" href="">Contacts</a></li>
+    <div class="content-wrap">
+      <header class="header-container">
+        <div class="decor-strip">
+          <div class="decor-strip__box"></div>
+          <div class="decor-strip__box"></div>
+          <div class="decor-strip__box"></div>
+          <div class="decor-strip__box"></div>
+          <div class="decor-strip__box"></div>
+        </div>
+      </header>
+      <div class="hero-section">
+        <p class="discounts">Free home deliveries</p>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link link" href="">Plants and Seeds</a></li>
+            <li class="main-nav__item"><a class="main-nav__link link" href="">Pots</a></li>
+            <li class="main-nav__item"><a class="main-nav__link link" href="">Accessories</a></li>
+            <li class="main-nav__item"><a class="main-nav__link link" href="">Blog</a></li>
+            <li class="main-nav__item"><a class="main-nav__link link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="utils">
+          <li class="utils__item">
+            <button type="button" class="utils__button">
+              <svg class="icon" width="26" height="18">
+                <use href="./images/icons.svg#search"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="utils__item">
+            <button type="button" class="utils__button">
+              <svg class="icon" width="21" height="18">
+                <use href="./images/icons.svg#profile"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="utils__item">
+            <button type="button" class="utils__button">
+              <svg class="icon" width="26" height="18">
+                <use href="./images/icons.svg#buy"></use>
+              </svg>
+            </button>
+          </li>
         </ul>
-      </nav>
-      <ul class="utils">
-        <li class="utils__item">
-          <button type="button" class="utils__button">
-            <svg class="icon" width="26" height="18">
-              <use href="./images/icons.svg#search"></use>
-            </svg>
-          </button>
-        </li>
-        <li class="utils__item">
-          <button type="button" class="utils__button">
-            <svg class="icon" width="21" height="18">
-              <use href="./images/icons.svg#profile"></use>
-            </svg>
-          </button>
-        </li>
-        <li class="utils__item">
-          <button type="button" class="utils__button">
-            <svg class="icon" width="26" height="18">
-              <use href="./images/icons.svg#buy"></use>
-            </svg>
-          </button>
-        </li>
-      </ul>
-      <div class="title">
-        <h1 class="title__main">Green Land</h1>
-        <p class="title__slogan-top">The planet of plants</p>
-        <p class="title__slogan-bottom">From our land to your home</p>
+        <div class="title">
+          <h1 class="title__main">Green Land</h1>
+          <p class="title__slogan-top">The planet of plants</p>
+          <p class="title__slogan-bottom">From our land to your home</p>
+        </div>
       </div>
-    </div>
-    <section class="feature-section container">
-      <ul class="features">
-        <li class="features__item">
-          <p class="features__text">Free shipping worldwide</p>
-        </li>
-        <li class="features__item">
-          <a class="features__link link" href="tel:111111">
-            <svg class="icon" width="39" height="31">
-              <use href="./images/icons.svg#support"></use>
+      <section class="feature-section">
+        <h2 class="visually-hidden">Features</h2>
+        <ul class="features">
+          <li class="features__item">
+            <p class="features__text">Free shipping worldwide</p>
+          </li>
+          <li class="features__item">
+            <a class="features__link link" href="tel:111111">
+              <svg class="icon" width="39" height="31">
+                <use href="./images/icons.svg#support"></use>
+              </svg>
+            </a>
+            <p class="features__text">24 hour customer service</p>
+          </li>
+          <li class="features__item">
+            <p class="features__text">Return guarantee</p>
+          </li>
+        </ul>
+      </section>
+      <section class="product-section">
+        <h2 class="visually-hidden">Products</h2>
+        <ul class="product-list">
+          <li class="product">
+            <img class="product__foto" src="./images/flower-1.png" alt="flower-1" />
+            <p class="product__name">Flower-1 name</p>
+            <div class="product__description link">
+              Product description
+              <p class="product__description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
+                dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
+                incidunt dolore consequatur?
+              </p>
+            </div>
+            <div class="product__buy-cont">
+              <p class="product__price">13$</p>
+              <button type="button" class="product__buy-btn button">Add to cart</button>
+              <button type="button" class="product__favorite-btn">
+                <svg width="13" height="12">
+                  <use href="./images/icons.svg#heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <img class="product__foto" src="./images/flower-2.png" alt="flower-1" />
+            <p class="product__name">Flower-1 name</p>
+            <div class="product__description link">
+              Product description
+              <p class="product__description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
+                dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
+                incidunt dolore consequatur?
+              </p>
+            </div>
+            <div class="product__buy-cont">
+              <p class="product__price">13$</p>
+              <button type="button" class="product__buy-btn button">Add to cart</button>
+              <button type="button" class="product__favorite-btn">
+                <svg width="13" height="12">
+                  <use href="./images/icons.svg#heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <img class="product__foto" src="./images/flower-3.png" alt="flower-1" />
+            <p class="product__name">Flower-1 name</p>
+            <div class="product__description link">
+              Product description
+              <p class="product__description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
+                dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
+                incidunt dolore consequatur?
+              </p>
+            </div>
+            <div class="product__buy-cont">
+              <p class="product__price">13$</p>
+              <button type="button" class="product__buy-btn button">Add to cart</button>
+              <button type="button" class="product__favorite-btn">
+                <svg width="13" height="12">
+                  <use href="./images/icons.svg#heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <img class="product__foto" src="./images/flower-4.png" alt="flower-1" />
+            <p class="product__name">Flower-1 name</p>
+            <div class="product__description link">
+              Product description
+              <p class="product__description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
+                dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
+                incidunt dolore consequatur?
+              </p>
+            </div>
+            <div class="product__buy-cont">
+              <p class="product__price">13$</p>
+              <button type="button" class="product__buy-btn button">Add to cart</button>
+              <button type="button" class="product__favorite-btn">
+                <svg width="13" height="12">
+                  <use href="./images/icons.svg#heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <img class="product__foto" src="./images/flower-5.png" alt="flower-1" />
+            <p class="product__name">Flower-1 name</p>
+            <div class="product__description link">
+              Product description
+              <p class="product__description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
+                dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
+                incidunt dolore consequatur?
+              </p>
+            </div>
+            <div class="product__buy-cont">
+              <p class="product__price">13$</p>
+              <button type="button" class="product__buy-btn button">Add to cart</button>
+              <button type="button" class="product__favorite-btn">
+                <svg width="13" height="12">
+                  <use href="./images/icons.svg#heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <img class="product__foto" src="./images/flower-6.png" alt="flower-1" />
+            <p class="product__name">Flower-1 name</p>
+            <div class="product__description link">
+              Product description
+              <p class="product__description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
+                dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
+                incidunt dolore consequatur?
+              </p>
+            </div>
+            <div class="product__buy-cont">
+              <p class="product__price">13$</p>
+              <button type="button" class="product__buy-btn button">Add to cart</button>
+              <button type="button" class="product__favorite-btn">
+                <svg width="13" height="12">
+                  <use href="./images/icons.svg#heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="popular-section">
+        <div class="popular-container">
+          <button type="button" class="selection-btn button">
+            <span>Get your ideal plant</span>
+            <svg class="selection-btn__icon" width="37" height="35">
+              <use href="./images/icons.svg#arrow"></use>
             </svg>
-          </a>
-          <p class="features__text">24 hour customer service</p>
-        </li>
-        <li class="features__item">
-          <p class="features__text">Return guarantee</p>
-        </li>
-      </ul>
-    </section>
-    <section class="product-section container">
-      <ul class="product-list">
-        <li class="product">
-          <img class="product__foto" src="./images/flower-1.png" alt="flower-1" />
-          <p class="product__name">Flower-1 name</p>
-          <div class="product__description link">Product description
-            <p class="product__description-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
-              dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
-              incidunt dolore consequatur?
-            </p>
-          </div>
-          <div class="product__buy-cont">
-            <p class="product__price">13$</p>
-            <button type="button" class="product__buy-btn">Add to cart</button>
-            <button type="button" class="product__favorite-btn">
-              <svg width="13" height="12">
-                <use href="./images/icons.svg#heart"></use>
-              </svg>
-            </button>
-          </div>
-        </li>
-        <li class="product">
-          <img class="product__foto" src="./images/flower-2.png" alt="flower-1" />
-          <p class="product__name">Flower-1 name</p>
-          <div class="product__description link">Product description
-            <p class="product__description-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
-              dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
-              incidunt dolore consequatur?
-            </p>
-          </div>
-          <div class="product__buy-cont">
-            <p class="product__price">13$</p>
-            <button type="button" class="product__buy-btn">Add to cart</button>
-            <button type="button" class="product__favorite-btn">
-              <svg width="13" height="12">
-                <use href="./images/icons.svg#heart"></use>
-              </svg>
-            </button>
-          </div>   
-        </li>
-        <li class="product">
-          <img class="product__foto" src="./images/flower-3.png" alt="flower-1" />
-          <p class="product__name">Flower-1 name</p>
-          <div class="product__description link">Product description
-            <p class="product__description-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
-              dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
-              incidunt dolore consequatur?
-            </p>
-          </div>
-          <div class="product__buy-cont">
-            <p class="product__price">13$</p>
-            <button type="button" class="product__buy-btn">Add to cart</button>
-            <button type="button" class="product__favorite-btn">
-              <svg width="13" height="12">
-                <use href="./images/icons.svg#heart"></use>
-              </svg>
-            </button>
-          </div>
-        </li>
-        <li class="product">
-          <img class="product__foto" src="./images/flower-4.png" alt="flower-1" />
-          <p class="product__name">Flower-1 name</p>
-          <div class="product__description link">Product description
-            <p class="product__description-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
-              dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
-              incidunt dolore consequatur?
-            </p>
-          </div>
-          <div class="product__buy-cont">
-            <p class="product__price">13$</p>
-            <button type="button" class="product__buy-btn">Add to cart</button>
-            <button type="button" class="product__favorite-btn">
-              <svg width="13" height="12">
-                <use href="./images/icons.svg#heart"></use>
-              </svg>
-            </button>
-          </div>   
-        </li>
-        <li class="product">
-          <img class="product__foto" src="./images/flower-5.png" alt="flower-1" />
-          <p class="product__name">Flower-1 name</p>
-          <div class="product__description link">Product description
-            <p class="product__description-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
-              dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
-              incidunt dolore consequatur?
-            </p>
-          </div>
-          <div class="product__buy-cont">
-            <p class="product__price">13$</p>
-            <button type="button" class="product__buy-btn">Add to cart</button>
-            <button type="button" class="product__favorite-btn">
-              <svg width="13" height="12">
-                <use href="./images/icons.svg#heart"></use>
-              </svg>
-            </button>
-          </div>
-        </li>
-        <li class="product">
-          <img class="product__foto" src="./images/flower-6.png" alt="flower-1" />
-          <p class="product__name">Flower-1 name</p>
-          <div class="product__description link">Product description
-            <p class="product__description-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis voluptatem ducimus
-              dolorum eos culpa eaque provident soluta vel amet beatae ipsum itaque saepe animi, cum magni
-              incidunt dolore consequatur?
-            </p>
-          </div>
-          <div class="product__buy-cont">
-            <p class="product__price">13$</p>
-            <button type="button" class="product__buy-btn">Add to cart</button>
-            <button type="button" class="product__favorite-btn">
-              <svg width="13" height="12">
-                <use href="./images/icons.svg#heart"></use>
-              </svg>
-            </button>
-          </div>   
-        </li>
-      </ul>
-    </section>
+          </button>
+          <h2 class="section-title">Most popular</h2>
+        </div>
+
+        <ul class="popular list">
+          <li class="popular-item">
+            <img class="popular__img" src="./images/popular-1.jpg" alt="plants in pots" />
+            <p class="popular__text">5 steps to transplant quickly and easily</p>
+          </li>
+          <li class="popular-item">
+            <img class="popular__img" src="./images/popular-2.jpg" alt="plants in pots" />
+            <p class="popular__text">The first care of a plant</p>
+          </li>
+        </ul>
+      </section>
+      <section class="instagram-section">
+        <ul class="instagram list">
+          <li class="instagram__item"><img src="./images/instagram-1.jpg" alt="hands with plant" /></li>
+          <li class="instagram__item"><img src="./images/instagram-2.jpg" alt="plant on the floor" /></li>
+          <li class="instagram__item">
+            <img src="./images/instagram-3.jpg" alt="three plants on the floor" />
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>

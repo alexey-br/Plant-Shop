@@ -1,0 +1,18 @@
+.instagram-section {
+  padding: 80px;
+  background-color: var(--color-accent-sec);
+}
+
+.instagram {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram__item {
+  max-width: 315px;
+  flex-shrink: 1;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
