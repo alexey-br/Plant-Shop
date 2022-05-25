@@ -1,0 +1,27 @@
+.social-section {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.social-section--section-title {
+  margin-bottom: 40px;
+}
+
+.social {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  max-width: 730px;
+  width: fill-available;
+}
+
+.social__link {
+  display: block;
+}
+
+.social__icon {
+  width: 110px;
+  height: 110px;
+  fill: currentColor;
+}

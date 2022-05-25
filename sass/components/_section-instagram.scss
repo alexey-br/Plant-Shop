@@ -1,14 +1,29 @@
 .instagram-section {
+  position: relative;
   padding: 80px;
   background-color: var(--color-accent-sec);
 }
 
-.instagram {
+.instagram-section__title-container {
+  position: absolute;
+  top: -70px;
+  right: 70px;
+  display: flex;
+  padding: 25px 30px;
+  border-radius: 15px;
+  background-color: var(--color-accent-sec);
+}
+
+.instagram-section--section-title {
+  margin-right: 20px;
+}
+
+.instagram-imgs {
   display: flex;
   justify-content: space-between;
 }
 
-.instagram__item {
+.instagram-imgs__item {
   max-width: 315px;
   flex-shrink: 1;
 
