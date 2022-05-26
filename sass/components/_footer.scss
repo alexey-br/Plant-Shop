@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  background-color: var(--color-accent-sec);
+}
+
+.footer-contacts {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 1.22;
+}
+
+.footer-logo {
+  font-family: 'Chelsea Market';
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--color-accent);
+
+  &::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/sprout.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 50px;
+    transform: translateY(12px);
+  }
+}

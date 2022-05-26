@@ -686,62 +686,36 @@ body {
   fill: currentColor;
 }
 
-.popular-section {
-  padding: 20px 60px 100px;
-}
-
-.popular-container {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px;
+  padding: 30px 80px;
+  background-color: var(--color-accent-sec);
 }
 
-.selection-btn {
-  display: flex;
-  align-items: center;
-  margin-right: 30px;
-  padding: 24px 45px;
-  box-shadow: 0px 157px 125px rgba(0, 0, 0, 0.07), 0px 35px 28px rgba(0, 0, 0, 0.04), 0px 10px 8px rgba(0, 0, 0, 0.03);
-  border-radius: 16px;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 1.2;
+.footer-contacts {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 1.22;
 }
 
-.selection-btn__icon {
-  margin-left: 60px;
+.footer-logo {
+  font-family: "Chelsea Market";
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--color-accent);
 }
-
-.popular-section .section-title {
-  flex-shrink: 0;
-}
-.popular-section .section-title::after {
+.footer-logo::before {
   content: "";
   display: inline-block;
-  margin-left: 37px;
-  width: 31px;
-  height: 19px;
-  background-image: url(../images/arrow-bot.svg);
+  background-image: url(../images/sprout.png);
+  background-size: contain;
   background-repeat: no-repeat;
-}
-
-.popular {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-}
-
-.popular-item {
-  width: calc((100% - 50px) / 2);
-}
-
-.popular__text {
-  margin-top: 20px;
-  font-weight: 700;
-  font-size: 27px;
-  line-height: 1.3;
-  color: rgba(0, 0, 0, 0.8);
+  width: 45px;
+  height: 50px;
+  transform: translateY(12px);
 }
 
 .popular-section {
