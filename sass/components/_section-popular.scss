@@ -1,5 +1,9 @@
 .popular-section {
   padding: 20px 60px 100px;
+
+  @media screen and (max-width: 1199px) {
+    padding: 20px 30px 100px;
+  }
 }
 
 .popular-container {
@@ -21,10 +25,19 @@
   font-weight: 800;
   font-size: 40px;
   line-height: 1.2;
+
+  @media screen and (max-width: 1199px) {
+    padding: 20px 20px;
+    font-size: 3vw;
+  }
 }
 
 .selection-btn__icon {
   margin-left: 60px;
+
+  @media screen and (max-width: 1199px) {
+    margin-left: 20px;
+  }
 }
 
 .popular-section .section-title {

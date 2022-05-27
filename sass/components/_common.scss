@@ -1,4 +1,5 @@
 body {
+  padding: 15px 0 30px;
   background: linear-gradient(90deg, #c1dfc4 0%, #deecdd 100%);
   font-family: 'Montserrat', sans-serif;
 }
@@ -6,6 +7,7 @@ body {
 .content-wrap {
   width: calc(100vw - 60px);
   max-width: 1350px;
+  min-width: 780px;
   margin: 0 auto;
   background-color: #ffffff;
   box-shadow: 0px 60px 50px rgba(0, 0, 0, 0.04);
@@ -28,6 +30,7 @@ body {
   background-color: var(--color-accent);
   border: none;
   color: #fffdfd;
+  cursor: pointer;
 
   transition: transform var(--trans-dur) var(--trans-timing);
 

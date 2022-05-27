@@ -1,9 +1,15 @@
 .feature-section {
   padding: 20px 0 60px;
+
+  @media screen and (max-width: 1199px) {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 .features {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -11,12 +17,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 380px;
+  max-width: 380px;
+  min-width: 315px;
+  width: calc(100% / 3 - 30px);
   height: 80px;
   background-color: #f5f5f5;
   box-shadow: 0px 38.0845px 30.4676px rgba(0, 0, 0, 0.07), 0px 15.9108px 12.7286px rgba(0, 0, 0, 0.0503198),
     0px 8.50666px 6.80533px rgba(0, 0, 0, 0.0417275), 0px 4.76876px 3.81501px rgba(0, 0, 0, 0.035),
     0px 2.53266px 2.02612px rgba(0, 0, 0, 0.0282725), 0px 1.05389px 0.843116px rgba(0, 0, 0, 0.0196802);
+
+  @media screen and (max-width: 1199px) {
+    &:last-child {
+      margin-top: 30px;
+    }
+  }
 }
 
 .features__text {

@@ -4,12 +4,18 @@
   align-items: center;
   padding: 30px 80px;
   background-color: var(--color-accent-sec);
+
+  font-size: 27px;
+  line-height: 1.22;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 2.2vw;
+    padding: 30px 30px;
+  }
 }
 
 .footer-contacts {
   font-weight: 600;
-  font-size: 27px;
-  line-height: 1.22;
 }
 
 .footer-logo {
@@ -29,4 +35,12 @@
     height: 50px;
     transform: translateY(12px);
   }
+}
+
+.site-nav {
+  font-weight: 400;
+}
+
+.site-nav__link {
+  text-decoration: underline;
 }
